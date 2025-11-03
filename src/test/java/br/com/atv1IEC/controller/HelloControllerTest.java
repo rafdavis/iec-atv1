@@ -20,6 +20,6 @@ public class HelloControllerTest {
     public void deveRetornarMeuNome() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Ricardo Davis"));
+                .andExpect(content().string("Ricardo A Davis"));
     }
 }
